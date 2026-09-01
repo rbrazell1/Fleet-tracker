@@ -1,0 +1,43 @@
+# Build output
+target/
+*.jar
+*.war
+*.class
+
+# Local config — never commit real values
+.env
+*.env
+!.env.example
+
+# SQLite buffer
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+data/
+
+# Mosquitto runtime
+mosquitto/data/
+mosquitto/log/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Maven
+dependency-reduced-pom.xml
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
